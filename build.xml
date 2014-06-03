@@ -18,7 +18,7 @@
     <property name="build.dir" value="build"/>
     <property name="src.dir" location="org"/>
     <property name="saxon-version" value="9-1-0-8"/>
-    <property name="jar.file" value="${build.dir}/lib/saxon-${saxon-version}_orbeon.jar"/>
+    <property name="jar.file" value="${build.dir}/lib/saxon-${saxon-version}_pdf4j.jar"/>
 
     <property name="build.debug" value="on"/>
 
@@ -57,10 +57,10 @@
 
             <include name="org/**/*.java"/>
 
-            <exclude name="org/orbeon/saxon/jdom/**/*.*"/>
-            <exclude name="org/orbeon/saxon/xom/**/*.*"/>
-            <exclude name="org/orbeon/saxon/dotnet/**/*.*"/>
-            <exclude name="org/orbeon/saxon/xpath/**/*.*"/>
+            <exclude name="org/pdf4j/saxon/jdom/**/*.*"/>
+            <exclude name="org/pdf4j/saxon/xom/**/*.*"/>
+            <exclude name="org/pdf4j/saxon/dotnet/**/*.*"/>
+            <exclude name="org/pdf4j/saxon/xpath/**/*.*"/>
         </javac>
     </target>
 
